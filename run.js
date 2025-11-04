@@ -22,4 +22,4 @@ app.get("/", (req, res) => {
     res.send("Render server is live. Visit /run to trigger the script.");
 });
 
-app.listen(port, () => console.log(`Server running on port ${port}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
