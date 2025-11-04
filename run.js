@@ -2,7 +2,7 @@
 import express from "express";
 
 const app = express();
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 // Define a route that runs your script
 app.get("/run", async (req, res) => {
