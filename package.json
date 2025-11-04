@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node run.js",
-    "postinstall": "npx playwright install --with-deps"
+    "postinstall": "npx playwright install chromium"
   },
   "private": true,
   "keywords": [],
