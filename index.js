@@ -8,7 +8,7 @@
 import { chromium } from 'playwright';
 
 const TOTAL_RUNS = 50;           // number of simulated visits
-const CONCURRENCY = 10;          // how many run in parallel (tune to your RAM)
+const CONCURRENCY = 5;          // how many run in parallel (tune to your RAM)
 const TARGET_URL = 'https://wakaoapp.com/'; // final URL to hit
 const KEYWORDS = ['wakao app', 'wakao ai', 'wakao social'];
 const SEARCH_ENGINE = 'https://www.google.com'; // change if you prefer duckduckgo
