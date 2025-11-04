@@ -5,7 +5,7 @@
 // 3) npx playwright install
 // 4) node index.js
 
-const { chromium } = require('playwright');
+import { chromium } from 'playwright';
 
 const TOTAL_RUNS = 50;           // number of simulated visits
 const CONCURRENCY = 10;          // how many run in parallel (tune to your RAM)
